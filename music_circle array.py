@@ -38,7 +38,8 @@ print("数据维度:", data.shape)
 # 麦克风数量
 num_mics = 8
 # 声源数量
-num_sources = 2
+num_sources = 1
+num_sources = num_sources * 2  # 声源估计的俯仰角会对称出现
 # 阵列半径
 d = 0.05
 # 麦克风位置
